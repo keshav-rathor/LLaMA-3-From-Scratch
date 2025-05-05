@@ -1,6 +1,7 @@
 # LLaMA-3-From-Scratch
-🚀 Overview: Recreating LLaMA 3 (Simplified, CPU-Only)
+**🚀 Overview: Recreating LLaMA 3 (Simplified, CPU-Only)**
 Following the success of your previous Medium blog where you built a 2.3M parameter LLM from scratch using LLaMA architecture, this blog focuses on recreating LLaMA 3 in a simplified, CPU-only setup.
+
 
 ![1*B0lqXfMVjMmBQyShIZei2g](https://github.com/user-attachments/assets/ae7e8a2a-32fb-4df1-bd9b-d960acf1bedb)
 
@@ -21,44 +22,42 @@ Following the success of your previous Medium blog where you built a 2.3M parame
 
 
 
-🛠 System Requirements:
 
-Accelerator: CPU-only
-RAM: Minimum 17 GB
-Alternative: Use Kaggle (30 GB RAM, no GPU required)
+**🛠 System Requirements:**
 
-📌 Prerequisites:
+* **Accelerator:** CPU-only
+* **RAM:** Minimum 17 GB
+* **Alternative:** Use **Kaggle** (30 GB RAM, no GPU required)
 
-Understanding the difference between LLaMA 2 and LLaMA 3
-Familiarity with Transformer architecture
-Key concepts:
-RMSNorm (Pre-normalization)
-SwiGLU activation
-RoPE (Rotary Positional Embeddings)
-Byte Pair Encoding (BPE)
+**📌 Prerequisites:**
 
-🧱 Project Structure & Implementation Steps:
+* Understanding the **difference between LLaMA 2 and LLaMA 3**
+* Familiarity with **Transformer architecture**
+* Key concepts:
 
-Understand the file structure
+  * **RMSNorm (Pre-normalization)**
+  * **SwiGLU activation**
+  * **RoPE (Rotary Positional Embeddings)**
+  * **Byte Pair Encoding (BPE)**
 
-Tokenize input data
+**🧱 Project Structure & Implementation Steps:**
 
-Create embeddings for each token
+1. **Understand the file structure**
+2. **Tokenize input data**
+3. **Create embeddings for each token**
+4. **Apply RMSNorm**
+5. **Build attention mechanism**
 
-Apply RMSNorm
+   * Queries, Keys, Values
+   * RoPE
+   * Self-Attention
+   * Multi-Head Attention
+6. **Implement SwiGLU activation**
+7. **Merge all components**
+8. **Generate the final output**
 
-Build attention mechanism
+**📄 Reference:**
+👉 [2.3+ Million Parameter LLM From Scratch (Medium Blog)](https://medium.com/)
 
-Queries, Keys, Values
+---
 
-RoPE
-
-Self-Attention
-
-Multi-Head Attention
-
-Implement SwiGLU activation
-
-Merge all components
-
-Generate the final output
