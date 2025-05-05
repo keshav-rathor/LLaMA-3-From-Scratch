@@ -26,6 +26,7 @@ Following the success of your previous Medium blog where you built a 2.3M parame
 Accelerator: CPU-only
 RAM: Minimum 17 GB
 Alternative: Use Kaggle (30 GB RAM, no GPU required)
+
 📌 Prerequisites:
 
 Understanding the difference between LLaMA 2 and LLaMA 3
@@ -35,17 +36,29 @@ RMSNorm (Pre-normalization)
 SwiGLU activation
 RoPE (Rotary Positional Embeddings)
 Byte Pair Encoding (BPE)
+
 🧱 Project Structure & Implementation Steps:
 
 Understand the file structure
+
 Tokenize input data
+
 Create embeddings for each token
+
 Apply RMSNorm
+
 Build attention mechanism
+
 Queries, Keys, Values
+
 RoPE
+
 Self-Attention
+
 Multi-Head Attention
+
 Implement SwiGLU activation
+
 Merge all components
+
 Generate the final output
